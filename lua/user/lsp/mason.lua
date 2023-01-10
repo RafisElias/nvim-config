@@ -7,6 +7,14 @@ local servers = {
 	"bashls",
 	"jsonls",
 	"yamlls",
+  "svelte",
+  "gopls",
+  "rust_analyzer",
+  "taplo",
+  "marksman",
+  "tailwindcss",
+  "dockerls",
+  "bashls"
 }
 
 local settings = {
