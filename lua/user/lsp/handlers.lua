@@ -97,7 +97,7 @@ end
 local function lsp_highlight_document(client, bufnr)
   -- Set autocommands conditional on server_capabilities
   if client.name == "tsserver" then
-		client.server_capabilities.documentFormattingProvider = false
+		client.server_capabilities.documentFormattingProvider = true
 	end
 
 	if client.name == "sumneko_lua" then
